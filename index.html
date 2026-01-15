@@ -2,28 +2,198 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Mason Digital</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mason Digital</title>
+  <meta name="description" content="Digital software services: web apps, APIs, automation, and backend solutions." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto;">
-  <h1>Mason Digital</h1>
 
-  <p>
-    We provide digital software services, including web applications, APIs,
-    automation tools, and backend solutions for businesses and individual users.
-  </p>
+<body>
+  <!-- Ambient background blobs -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="noise"></div>
+  </div>
 
-  <h3>Services</h3>
-  <ul>
-    <li>Custom software development</li>
-    <li>Web applications and APIs</li>
-    <li>Automation and integrations</li>
-  </ul>
+  <header class="top">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">M</div>
+      <div class="brand-text">
+        <div class="name">Mason Digital</div>
+        <div class="tag">Software • APIs • Automation</div>
+      </div>
+    </div>
 
-  <h3>Contact</h3>
-  <p>
-    GitHub: <a href="https://github.com/funofbfmv">github.com/funofbfmv</a><br/>
-    Email: your@email.com
-  </p>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="pill">
+          <span class="dot"></span>
+          Digital-first development studio
+        </div>
+
+        <h1>
+          Build <span class="accent">web apps</span>, <span class="accent">APIs</span> & automation
+          that actually ships.
+        </h1>
+
+        <p class="subtitle">
+          We deliver cloud-based software solutions: backend services, dashboards,
+          integrations, and productivity tools — delivered digitally worldwide.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="https://github.com/funofbfmv" target="_blank" rel="noopener">
+            View GitHub
+          </a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">SaaS</div>
+            <div class="stat-label">Subscriptions & usage-based</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">API</div>
+            <div class="stat-label">Integrations & automation</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">DevOps</div>
+            <div class="stat-label">Docker • Linux • CI/CD</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card glass">
+          <div class="card-head">
+            <div class="chip">What we do</div>
+            <div class="pulse" aria-hidden="true"></div>
+          </div>
+
+          <ul class="bullets">
+            <li><span class="check">✓</span> Custom software development</li>
+            <li><span class="check">✓</span> Web applications & REST APIs</li>
+            <li><span class="check">✓</span> Automation & integrations</li>
+            <li><span class="check">✓</span> Backend architecture & scaling</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <div class="mini">
+            <div class="mini-title">Typical deliverables</div>
+            <div class="mini-tags">
+              <span>Admin dashboards</span>
+              <span>Payments & subscriptions</span>
+              <span>Telegram bots</span>
+              <span>Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card soft">
+          <div class="soft-title">Availability</div>
+          <div class="soft-text">
+            Remote • Worldwide • Digital delivery<br />
+            Response time: 24–48h
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <p class="muted">Clear scope, fast iterations, production-ready delivery.</p>
+
+      <div class="grid">
+        <article class="tile">
+          <h3>Web Apps</h3>
+          <p>Modern frontends and reliable backends — from MVP to production.</p>
+          <div class="tile-tags">
+            <span>React</span><span>Django</span><span>FastAPI</span>
+          </div>
+        </article>
+
+        <article class="tile">
+          <h3>APIs & Integrations</h3>
+          <p>REST APIs, third-party integrations, automation pipelines, webhooks.</p>
+          <div class="tile-tags">
+            <span>REST</span><span>Webhooks</span><span>Workers</span>
+          </div>
+        </article>
+
+        <article class="tile">
+          <h3>Automation</h3>
+          <p>Business automation, scripts, ETL jobs, scheduled tasks.</p>
+          <div class="tile-tags">
+            <span>Celery</span><span>Redis</span><span>Queue</span>
+          </div>
+        </article>
+
+        <article class="tile">
+          <h3>DevOps</h3>
+          <p>Docker, Linux servers, deployments, monitoring basics, CI/CD setup.</p>
+          <div class="tile-tags">
+            <span>Docker</span><span>Nginx</span><span>CI/CD</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <h2>Stack</h2>
+      <p class="muted">Tools used for building scalable products.</p>
+
+      <div class="stack">
+        <span>Django</span><span>FastAPI</span><span>PostgreSQL</span>
+        <span>React</span><span>TypeScript</span><span>Docker</span>
+        <span>Nginx</span><span>Redis</span><span>Celery</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <p class="muted">
+          For inquiries, support, or project discussions — reach out via:
+        </p>
+
+        <div class="contact-links">
+          <a class="link" href="https://github.com/funofbfmv" target="_blank" rel="noopener">
+            GitHub: github.com/funofbfmv
+          </a>
+
+          <!-- Замени почту на реальную -->
+          <a class="link" href="mailto:your@email.com">
+            Email: your@email.com
+          </a>
+        </div>
+
+        <div class="note">
+          Digital services only. No physical goods.
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Mason Digital</span>
+      <span class="sep">•</span>
+      <span>Built on GitHub Pages</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
